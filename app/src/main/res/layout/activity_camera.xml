@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:background="#C4C7D6"
+    tools:context=".Camera">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="IMAGE CLASSIFY"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/selectBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Select image" />
+
+    <Button
+        android:id="@+id/cameratBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/selectBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Camera" />
+
+    <Button
+        android:id="@+id/predicBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cameratBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Predic" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/predicBtn"
+        android:layout_marginTop="20dp"
+        android:text="RESULT :"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/text"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Click on the camera button to start the camera" />-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/btcamera_id"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="50dp"-->
+    <!--        android:layout_below="@+id/text"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:text="Camera" />-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/image"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="500dp"-->
+    <!--        android:layout_marginTop="25dp"-->
+
+    <!--        android:paddingTop="50dp" />-->
+    <!--    <TextView-->
+    <!--        android:id="@+id/resultTextView"-->
+    <!--        android:layout_width="174dp"-->
+    <!--        android:layout_height="270dp"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:layout_gravity="center"-->
+    <!--        android:text=""-->
+    <!--        android:textSize="18sp"-->
+    <!--        android:visibility="gone" />-->
+
+
+    <!--    <Button-->
+    <!--        android:layout_width="200dp"-->
+    <!--        android:layout_height="60dp"-->
+    <!--        android:layout_alignParentStart="true"-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:layout_alignParentEnd="true"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_marginStart="108dp"-->
+    <!--        android:layout_marginTop="529dp"-->
+    <!--        android:layout_marginEnd="103dp"-->
+    <!--        android:layout_marginBottom="155dp"-->
+    <!--        android:text="Button"-->
+    <!--        android:textSize="16sp" />-->
+
+</RelativeLayout>
+
